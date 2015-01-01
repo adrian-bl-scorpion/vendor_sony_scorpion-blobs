@@ -90,9 +90,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/scorpion-blobs/system/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/sony/scorpion-blobs/system/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/sony/scorpion-blobs/system/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
-    vendor/sony/scorpion-blobs/system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
-    vendor/sony/scorpion-blobs/system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/scorpion-blobs/system/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
+    vendor/sony/scorpion-blobs/system/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
+    vendor/sony/scorpion-blobs/system/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     vendor/sony/scorpion-blobs/system/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/scorpion-blobs/system/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/scorpion-blobs/system/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
