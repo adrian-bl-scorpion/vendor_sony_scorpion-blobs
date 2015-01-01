@@ -1,4 +1,27 @@
 PRODUCT_COPY_FILES += \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/sony/scorpion-blobs/system/etc/audio_platform_info.xml:system/etc/audio_platform_info.xml \
+    vendor/sony/scorpion-blobs/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/sony/scorpion-blobs/system/etc/firmware/BCM43xx.hcd:system/etc/firmware/BCM43xx.hcd \
     vendor/sony/scorpion-blobs/system/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/sony/scorpion-blobs/system/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -90,6 +113,35 @@ PRODUCT_COPY_FILES += \
     vendor/sony/scorpion-blobs/system/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/sony/scorpion-blobs/system/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/sony/scorpion-blobs/system/etc/firmware/wlan/bcmdhd/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/FMSpeaker_btm.eq:system/etc/tfa98xx/FMSpeaker_btm.eq \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/FMSpeaker_btm.preset:system/etc/tfa98xx/FMSpeaker_btm.preset \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/FMSpeaker_top.eq:system/etc/tfa98xx/FMSpeaker_top.eq \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/FMSpeaker_top.preset:system/etc/tfa98xx/FMSpeaker_top.preset \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/HiFiSpeakerRing_btm.eq:system/etc/tfa98xx/HiFiSpeakerRing_btm.eq \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/HiFiSpeakerRing_btm.preset:system/etc/tfa98xx/HiFiSpeakerRing_btm.preset \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/HiFiSpeakerRing_top.eq:system/etc/tfa98xx/HiFiSpeakerRing_top.eq \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/HiFiSpeakerRing_top.preset:system/etc/tfa98xx/HiFiSpeakerRing_top.preset \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/HiFiSpeakerSforce_btm.eq:system/etc/tfa98xx/HiFiSpeakerSforce_btm.eq \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/HiFiSpeakerSforce_btm.preset:system/etc/tfa98xx/HiFiSpeakerSforce_btm.preset \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/HiFiSpeakerSforce_top.eq:system/etc/tfa98xx/HiFiSpeakerSforce_top.eq \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/HiFiSpeakerSforce_top.preset:system/etc/tfa98xx/HiFiSpeakerSforce_top.preset \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/HiFiSpeaker_btm.eq:system/etc/tfa98xx/HiFiSpeaker_btm.eq \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/HiFiSpeaker_btm.preset:system/etc/tfa98xx/HiFiSpeaker_btm.preset \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/HiFiSpeaker_top.eq:system/etc/tfa98xx/HiFiSpeaker_top.eq \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/HiFiSpeaker_top.preset:system/etc/tfa98xx/HiFiSpeaker_top.preset \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/TFA9890.patch:system/etc/tfa98xx/TFA9890.patch \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/TFA9890_Receiver.config:system/etc/tfa98xx/TFA9890_Receiver.config \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/TFA9890_btm.config:system/etc/tfa98xx/TFA9890_btm.config \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/TFA9890_top.config:system/etc/tfa98xx/TFA9890_top.config \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/VoiceCallEarpice_top.eq:system/etc/tfa98xx/VoiceCallEarpice_top.eq \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/VoiceCallEarpice_top.preset:system/etc/tfa98xx/VoiceCallEarpice_top.preset \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/VoiceCallSpeaker_btm.eq:system/etc/tfa98xx/VoiceCallSpeaker_btm.eq \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/VoiceCallSpeaker_btm.preset:system/etc/tfa98xx/VoiceCallSpeaker_btm.preset \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/VoiceCallSpeaker_top.eq:system/etc/tfa98xx/VoiceCallSpeaker_top.eq \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/VoiceCallSpeaker_top.preset:system/etc/tfa98xx/VoiceCallSpeaker_top.preset \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
+    vendor/sony/scorpion-blobs/system/etc/tfa98xx/top.speaker:system/etc/tfa98xx/top.speaker \
     vendor/sony/scorpion-blobs/system/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
     vendor/sony/scorpion-blobs/system/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/sony/scorpion-blobs/system/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
